@@ -75,7 +75,6 @@ class _DepremKayitState extends State<DepremKayit> {
                         userAgentPackageName: 'com.example.app',
                       ),
                       PolygonLayer(
-                        //todo! Asıl Çokomelli olan kısım burasıı
                         polygons: poligonlar +
                             [
                               Polygon(

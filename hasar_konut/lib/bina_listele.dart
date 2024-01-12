@@ -102,7 +102,6 @@ class _BinaListelemeState extends State<BinaListeleme> {
                         .map((bina) => Card(
                               child: ListTile(
                                 title: Text(bina['binaAdi']),
-                                //subtitle: Text(bina['konum']),
                               ),
                             ))
                         .toList(),
@@ -135,7 +134,6 @@ class _BinaListelemeState extends State<BinaListeleme> {
           });
 
           if (_currentIndex == 0) {
-            // Navigate to DepremKayit page
             Navigator.pushReplacement(
               context,
               MaterialPageRoute(builder: (context) => DepremKayit()),

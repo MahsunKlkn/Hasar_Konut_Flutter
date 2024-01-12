@@ -30,7 +30,6 @@ class FirestoreIslemler {
     var snapshots = await binalar.snapshots().first;
 
     List<Map<String, dynamic>> resultList = snapshots.docs.map((doc) {
-      // print("Konumun türü: ${doc['konum'].runtimeType}");
       List<double> konumTurDonusumDizi = [];
       List<dynamic> konumDiziString = doc['konum'].split(',');
       for (var element in konumDiziString) {
