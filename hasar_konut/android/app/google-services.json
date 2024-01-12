@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "268491461507",
+    "project_id": "deprem-konut-hasar2",
+    "storage_bucket": "deprem-konut-hasar2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268491461507:android:4d47956409cf1903135cb6",
+        "android_client_info": {
+          "package_name": "com.example.hasar_konut"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC584GF2pvJ7JucCdnoITDNKzF-MMfXePU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
